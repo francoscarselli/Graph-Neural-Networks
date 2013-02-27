@@ -72,7 +72,7 @@ addpath(genpath(pwd));
         line = fgetl(fid);
         if isempty(line)
             warn(numline, 'line is empty. Please remove it or comment it');
-        elseif line(1)=='#'
+        elseif line(1)=='#' || line(1)=='%'
             %this is a comment line
             continue;
         elseif (line(1)=='*')

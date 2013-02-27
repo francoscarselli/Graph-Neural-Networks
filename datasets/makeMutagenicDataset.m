@@ -55,7 +55,7 @@ file='muta.pl';
     numline=1;
     line = fgetl(fid);
     while feof(fid) == 0
-        numline
+        %numline
     %for ttt=1:2
         if isempty(line)
             err(numline, 'line is empty. Please remove it');
