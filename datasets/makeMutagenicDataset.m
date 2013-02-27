@@ -20,7 +20,6 @@ function makeMutagenicDataset(file)
 % We thank Derek Monner to have shown us the problem.
 
 
-the Procedure  procedure 
 addpath(genpath(pwd));
 
 global dataSet tmp gr multidata testIndexes trainIndexes validationIndexes
